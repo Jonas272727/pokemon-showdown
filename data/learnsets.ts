@@ -100555,5 +100555,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thunderfang: ["9M"],
 			whirlwind: ["9L16"],
 			wingattack: ["9L24"],
+			},
 		},
+		
 };

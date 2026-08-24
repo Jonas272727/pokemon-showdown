@@ -21055,7 +21055,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	pruebalion: {
 		num: -6000,
-		name: "Pokestar UFO-PropU2",
+		name: "pruebalion",
 		baseSpecies: "pruebalion",
 		types: ["Psychic", "Electric"],
 		gender: "N",

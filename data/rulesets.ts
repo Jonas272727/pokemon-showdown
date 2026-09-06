@@ -3263,4 +3263,13 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			if (!speciesMods.length) throw new Error('This format has no rules that modify base stats.');
 		},
 	},
+	AbejaFakeDobles: {
+		effectType: 'ValidatorRule',
+		name: 'Abeja FakeDobles',
+		desc: "Abeja whack time",
+		ruleset: [
+			'Standard AG',
+			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Gravity Sleep Clause',
+		],
+	},
 };

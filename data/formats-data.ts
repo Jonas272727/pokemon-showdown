@@ -6251,7 +6251,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	pruebalion: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "PU",
+		doublesTier: "(DUU)",
+		natDexTier: "RU",
 	},
 };

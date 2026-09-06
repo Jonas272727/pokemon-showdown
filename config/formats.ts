@@ -14,11 +14,25 @@ export const Formats: FormatList = [
 
 If you specify a section that already exists, your format will be added to the bottom of that section.
 New sections will be added to the bottom of the specified column.
-The column value will be ignored for repeat sections.
+The column value will be ignored for repeat sections.   ESTUVE AQUI Linea 172
 */
 
 export const Formats: import('../sim/dex-formats').FormatList = [
+	// AbejaFakemons
+	///////////////////////////////////////////////////////////////////
 
+	{
+		section: "Abeja",
+	},
+	{
+		name: "[Gen 9] Abeja FakemonCup",
+		mod: 'abfc',
+		gameType: 'doubles',
+		team: 'random',
+		bestOfDefault: true,
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Illusion Level Mod', 'Sleep Clause Mod'],
+	},
+	
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -1255,7 +1269,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	},
 	{
-		name: "[Gen 9] Bio Mech Mons",
+		name: "[Gen 9] Bio Mech MonsJ",
 		desc: `Items, abilities, and moves a Pok&eacute;mon has access to can be put in any item/move/ability slot.`,
 		mod: 'biomechmons',
 		searchShow: false,
@@ -1490,6 +1504,16 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			}
 		},
 	},
+	{
+		name: "[Gen 9] Abeja FakemonCup J",
+		desc:`Abejamon time`,
+		mod: 'gen9',
+		searchShow: false,
+		gameType: 'doubles',
+		bestOfDefault: true,
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Illusion Level Mod', 'Sleep Clause Mod'],
+	},
+	
 	{
 		name: "[Gen 9] Camomons",
 		desc: `Pok&eacute;mon have their types set to match their first two moves.`,

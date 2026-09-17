@@ -26,8 +26,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 9] Abeja FakemonCup",
-		mod: 'abfc',
+		desc: `pruebas`,
+		mod: 'gen9',
 		gameType: 'doubles',
+		searchShow: false,
 		team: 'random',
 		bestOfDefault: true,
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Illusion Level Mod', 'Sleep Clause Mod'],
